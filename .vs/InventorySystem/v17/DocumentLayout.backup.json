@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\InventorySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|e:\\projects\\inventorysystem\\inventorysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|e:\\projects\\inventorysystem\\inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|e:\\projects\\inventorysystem\\inventorysystem\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|e:\\projects\\inventorysystem\\inventorysystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|e:\\projects\\inventorysystem\\inventorysystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C6F631-6EB8-46AB-9A3C-3CA69775A912}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projects\\InventorySystem\\InventorySystem\\Program.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Program.cs",
+              "ToolTip": "E:\\projects\\InventorySystem\\InventorySystem\\Program.cs*",
+              "RelativeToolTip": "InventorySystem\\Program.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:08:33.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\projects\\InventorySystem\\InventorySystem\\appsettings.json",
+              "RelativeDocumentMoniker": "InventorySystem\\appsettings.json",
+              "ToolTip": "E:\\projects\\InventorySystem\\InventorySystem\\appsettings.json*",
+              "RelativeToolTip": "InventorySystem\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T01:04:41.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "E:\\projects\\InventorySystem\\InventorySystem\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Models\\Stock.cs",
+              "ToolTip": "E:\\projects\\InventorySystem\\InventorySystem\\Models\\Stock.cs",
+              "RelativeToolTip": "InventorySystem\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:04:17.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\projects\\InventorySystem\\InventorySystem\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Models\\Product.cs",
+              "ToolTip": "E:\\projects\\InventorySystem\\InventorySystem\\Models\\Product.cs",
+              "RelativeToolTip": "InventorySystem\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:03:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\projects\\InventorySystem\\InventorySystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\projects\\InventorySystem\\InventorySystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InventorySystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:01:11.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
