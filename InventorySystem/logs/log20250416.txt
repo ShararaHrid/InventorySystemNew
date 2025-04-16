@@ -1,0 +1,401 @@
+2025-04-16 08:37:18.959 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-16 08:37:19.029 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-16 08:37:19.033 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Create.cshtml'.
+2025-04-16 08:37:19.034 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Delete.cshtml'.
+2025-04-16 08:37:19.035 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Edit.cshtml'.
+2025-04-16 08:37:19.039 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Index.cshtml'.
+2025-04-16 08:37:19.040 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-16 08:37:19.041 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-16 08:37:19.042 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-16 08:37:19.044 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-16 08:37:19.045 +06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-16 08:37:19.068 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-16 08:37:19.286 +06:00 [DBG] Hosting starting
+2025-04-16 08:37:19.402 +06:00 [INF] User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-16 08:37:19.452 +06:00 [DBG] Reading data from file 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys\key-6e68bf83-1d54-49bf-ba85-7307d16d09ed.xml'.
+2025-04-16 08:37:19.510 +06:00 [DBG] Found key {6e68bf83-1d54-49bf-ba85-7307d16d09ed}.
+2025-04-16 08:37:19.534 +06:00 [DBG] Considering key {6e68bf83-1d54-49bf-ba85-7307d16d09ed} with expiration date 2025-06-14 09:59:37Z as default key.
+2025-04-16 08:37:19.540 +06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 08:37:19.547 +06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-16 08:37:19.552 +06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 08:37:19.560 +06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-16 08:37:19.565 +06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-16 08:37:19.568 +06:00 [DBG] Using key {6e68bf83-1d54-49bf-ba85-7307d16d09ed} as the default key.
+2025-04-16 08:37:19.571 +06:00 [DBG] Key ring with default key {6e68bf83-1d54-49bf-ba85-7307d16d09ed} was loaded during application startup.
+2025-04-16 08:37:19.587 +06:00 [DBG] Middleware loaded
+2025-04-16 08:37:19.591 +06:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16515 B).
+2025-04-16 08:37:19.594 +06:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-16 08:37:19.757 +06:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-16 08:37:19.996 +06:00 [INF] Now listening on: https://localhost:7296
+2025-04-16 08:37:19.998 +06:00 [INF] Now listening on: http://localhost:5148
+2025-04-16 08:37:19.999 +06:00 [DBG] Loaded hosting startup assembly InventorySystem
+2025-04-16 08:37:20.000 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-16 08:37:20.002 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-16 08:37:20.003 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-16 08:37:20.064 +06:00 [DBG] Connection id "0HNBSHUE4GGPR" accepted.
+2025-04-16 08:37:20.066 +06:00 [DBG] Connection id "0HNBSHUE4GGPR" started.
+2025-04-16 08:37:20.068 +06:00 [DBG] Connection id "0HNBSHUE4GGPS" accepted.
+2025-04-16 08:37:20.070 +06:00 [DBG] Connection id "0HNBSHUE4GGPS" started.
+2025-04-16 08:37:20.083 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-16 08:37:20.085 +06:00 [INF] Hosting environment: Development
+2025-04-16 08:37:20.087 +06:00 [INF] Content root path: C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem
+2025-04-16 08:37:20.128 +06:00 [DBG] Connection id "0HNBSHUE4GGPS" received FIN.
+2025-04-16 08:37:20.134 +06:00 [DBG] Hosting started
+2025-04-16 08:37:20.123 +06:00 [DBG] Connection id "0HNBSHUE4GGPR" received FIN.
+2025-04-16 08:37:20.167 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-16 08:37:20.167 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-16 08:37:20.278 +06:00 [DBG] Connection id "0HNBSHUE4GGPS" stopped.
+2025-04-16 08:37:20.278 +06:00 [DBG] Connection id "0HNBSHUE4GGPR" stopped.
+2025-04-16 08:37:20.284 +06:00 [DBG] Connection id "0HNBSHUE4GGPR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-16 08:37:20.284 +06:00 [DBG] Connection id "0HNBSHUE4GGPS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-16 08:37:20.788 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" accepted.
+2025-04-16 08:37:20.794 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" started.
+2025-04-16 08:37:20.878 +06:00 [DBG] Connection 0HNBSHUE4GGPT established using the following protocol: "Tls13"
+2025-04-16 08:37:21.026 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/ - null null
+2025-04-16 08:37:21.341 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-16 08:37:21.354 +06:00 [DBG] The request path / does not match a supported file type
+2025-04-16 08:37:21.390 +06:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-16 08:37:21.396 +06:00 [DBG] Endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-16 08:37:21.400 +06:00 [DBG] Request matched endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:21.422 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:21.473 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InventorySystem.Controllers.HomeController (InventorySystem).
+2025-04-16 08:37:21.478 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 08:37:21.480 +06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:21.484 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 08:37:21.488 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 08:37:21.490 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:21.512 +06:00 [DBG] Executing controller factory for controller InventorySystem.Controllers.HomeController (InventorySystem)
+2025-04-16 08:37:21.517 +06:00 [DBG] Executed controller factory for controller InventorySystem.Controllers.HomeController (InventorySystem)
+2025-04-16 08:37:21.532 +06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-16 08:37:21.544 +06:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 08:37:21.549 +06:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 15.7749ms.
+2025-04-16 08:37:21.599 +06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-16 08:37:21.652 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2025-04-16 08:37:21.658 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 08:37:21.662 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 08:37:21.667 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2025-04-16 08:37:21.672 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Product and 
+2025-04-16 08:37:21.675 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Product
+2025-04-16 08:37:21.678 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Stock])
+2025-04-16 08:37:21.681 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Stock and 
+2025-04-16 08:37:21.684 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Stock
+2025-04-16 08:37:21.747 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 08:37:21.754 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 08:37:21.760 +06:00 [INF] Executed ViewResult - view Index executed in 229.9797ms.
+2025-04-16 08:37:21.763 +06:00 [INF] Executed action InventorySystem.Controllers.HomeController.Index (InventorySystem) in 269.9909ms
+2025-04-16 08:37:21.765 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:21.767 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 08:37:21.770 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 08:37:21.777 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/ - 200 null text/html; charset=utf-8 766.7493ms
+2025-04-16 08:37:21.825 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/css/site.css - null null
+2025-04-16 08:37:21.847 +06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\css\site.css'
+2025-04-16 08:37:21.851 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/css/site.css - 200 362 text/css 26.0917ms
+2025-04-16 08:37:21.857 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:21.860 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/lib/jquery/dist/jquery.min.js - null null
+2025-04-16 08:37:21.865 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-16 08:37:21.868 +06:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-04-16 08:37:21.880 +06:00 [INF] The file /js/site.js was not modified
+2025-04-16 08:37:21.865 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-16 08:37:21.866 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-16 08:37:21.905 +06:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2025-04-16 08:37:21.905 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:21.906 +06:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2025-04-16 08:37:21.911 +06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-04-16 08:37:21.921 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 55.7225ms
+2025-04-16 08:37:21.919 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 62.911ms
+2025-04-16 08:37:21.916 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/lib/jquery/dist/jquery.min.js - 304 null text/javascript 56.0383ms
+2025-04-16 08:37:21.923 +06:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2025-04-16 08:37:21.960 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 94.6722ms
+2025-04-16 08:37:22.008 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.8207ms
+2025-04-16 08:37:26.409 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/ - null null
+2025-04-16 08:37:26.423 +06:00 [DBG] The request path / does not match a supported file type
+2025-04-16 08:37:26.425 +06:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-16 08:37:26.427 +06:00 [DBG] Endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-16 08:37:26.431 +06:00 [DBG] Request matched endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:26.449 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:26.451 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InventorySystem.Controllers.HomeController (InventorySystem).
+2025-04-16 08:37:26.453 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 08:37:26.456 +06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:26.458 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 08:37:26.463 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 08:37:26.466 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:26.469 +06:00 [DBG] Executing controller factory for controller InventorySystem.Controllers.HomeController (InventorySystem)
+2025-04-16 08:37:26.471 +06:00 [DBG] Executed controller factory for controller InventorySystem.Controllers.HomeController (InventorySystem)
+2025-04-16 08:37:26.474 +06:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-04-16 08:37:26.476 +06:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 08:37:26.478 +06:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 4.7109ms.
+2025-04-16 08:37:26.482 +06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-04-16 08:37:26.484 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2025-04-16 08:37:26.487 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 08:37:26.490 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 08:37:26.492 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2025-04-16 08:37:26.495 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Product and 
+2025-04-16 08:37:26.498 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Product
+2025-04-16 08:37:26.501 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Stock])
+2025-04-16 08:37:26.504 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Stock and 
+2025-04-16 08:37:26.507 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Stock
+2025-04-16 08:37:26.510 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 08:37:26.513 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 08:37:26.515 +06:00 [INF] Executed ViewResult - view Index executed in 41.1484ms.
+2025-04-16 08:37:26.519 +06:00 [INF] Executed action InventorySystem.Controllers.HomeController.Index (InventorySystem) in 49.8376ms
+2025-04-16 08:37:26.528 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-16 08:37:26.530 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 08:37:26.532 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 08:37:26.534 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/ - 200 null text/html; charset=utf-8 125.4287ms
+2025-04-16 08:37:26.554 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-16 08:37:26.559 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:26.578 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:26.584 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 26.2625ms
+2025-04-16 08:37:26.603 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5808ms
+2025-04-16 08:37:27.406 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" received FIN.
+2025-04-16 08:37:27.421 +06:00 [DBG] The connection queue processing loop for 0HNBSHUE4GGPT completed.
+2025-04-16 08:37:27.424 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" is closed. The last processed stream ID was 19.
+2025-04-16 08:37:27.425 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-16 08:37:27.437 +06:00 [DBG] Connection id "0HNBSHUE4GGPT" stopped.
+2025-04-16 08:37:28.184 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" accepted.
+2025-04-16 08:37:28.188 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" started.
+2025-04-16 08:37:28.193 +06:00 [DBG] Connection 0HNBSHUE4GGPU established using the following protocol: "Tls13"
+2025-04-16 08:37:28.292 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/Product - null null
+2025-04-16 08:37:28.301 +06:00 [DBG] The request path /Product does not match a supported file type
+2025-04-16 08:37:28.304 +06:00 [DBG] 1 candidate(s) found for the request path '/Product'
+2025-04-16 08:37:28.308 +06:00 [DBG] Endpoint 'InventorySystem.Controllers.ProductController.Index (InventorySystem)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Product'
+2025-04-16 08:37:28.313 +06:00 [DBG] Request matched endpoint 'InventorySystem.Controllers.ProductController.Index (InventorySystem)'
+2025-04-16 08:37:28.315 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.ProductController.Index (InventorySystem)'
+2025-04-16 08:37:28.320 +06:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InventorySystem.Controllers.ProductController (InventorySystem).
+2025-04-16 08:37:28.325 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 08:37:28.328 +06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:28.332 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 08:37:28.335 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 08:37:28.337 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:28.340 +06:00 [DBG] Executing controller factory for controller InventorySystem.Controllers.ProductController (InventorySystem)
+2025-04-16 08:37:29.586 +06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-16 08:37:30.289 +06:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'MySql.EntityFrameworkCore:1.0.0' with options: None
+2025-04-16 08:37:30.295 +06:00 [DBG] Executed controller factory for controller InventorySystem.Controllers.ProductController (InventorySystem)
+2025-04-16 08:37:30.327 +06:00 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2025-04-16 08:37:30.531 +06:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Name (string) Required, 1], [Property: Product.Price (decimal) Required, 2] }
+        SELECT p.Id, p.Name, p.Price
+        FROM Products AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    InventorySystem.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-04-16 08:37:30.560 +06:00 [DBG] Creating DbConnection.
+2025-04-16 08:37:30.572 +06:00 [DBG] Created DbConnection. (11ms).
+2025-04-16 08:37:30.578 +06:00 [DBG] Opening connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:31.603 +06:00 [DBG] Opened connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:31.607 +06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-16 08:37:31.611 +06:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-04-16 08:37:31.614 +06:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2025-04-16 08:37:31.621 +06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`Name`, `p`.`Price`
+FROM `Products` AS `p`
+2025-04-16 08:37:31.732 +06:00 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`Name`, `p`.`Price`
+FROM `Products` AS `p`
+2025-04-16 08:37:31.739 +06:00 [DBG] Closing data reader to 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:31.745 +06:00 [DBG] A data reader for 'InventoryDB' on server '127.0.0.1' is being disposed after spending 4ms reading results.
+2025-04-16 08:37:31.755 +06:00 [DBG] Closing connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:31.761 +06:00 [DBG] Closed connection to database 'InventoryDB' on server '127.0.0.1' (6ms).
+2025-04-16 08:37:31.764 +06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Product'.
+2025-04-16 08:37:31.767 +06:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 08:37:31.770 +06:00 [DBG] The view path '/Views/Product/Index.cshtml' was found in 5.2672ms.
+2025-04-16 08:37:31.776 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Create],controller=[Product])
+2025-04-16 08:37:31.779 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Product/Create and 
+2025-04-16 08:37:31.782 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Product/Create
+2025-04-16 08:37:31.787 +06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Product'.
+2025-04-16 08:37:31.789 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2025-04-16 08:37:31.792 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 08:37:31.794 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 08:37:31.797 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2025-04-16 08:37:31.800 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Product and 
+2025-04-16 08:37:31.803 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Product
+2025-04-16 08:37:31.806 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Stock])
+2025-04-16 08:37:31.809 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Stock and 
+2025-04-16 08:37:31.812 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Stock
+2025-04-16 08:37:31.815 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 08:37:31.816 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 08:37:31.817 +06:00 [INF] Executed ViewResult - view Index executed in 53.2287ms.
+2025-04-16 08:37:31.820 +06:00 [INF] Executed action InventorySystem.Controllers.ProductController.Index (InventorySystem) in 3480.354ms
+2025-04-16 08:37:31.822 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.ProductController.Index (InventorySystem)'
+2025-04-16 08:37:31.824 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 08:37:31.826 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 08:37:31.831 +06:00 [DBG] 'ApplicationDbContext' disposed.
+2025-04-16 08:37:31.846 +06:00 [DBG] Disposing connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:31.852 +06:00 [DBG] Disposed connection to database 'InventoryDB' on server '127.0.0.1' (6ms).
+2025-04-16 08:37:31.855 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/Product - 200 null text/html; charset=utf-8 3563.5512ms
+2025-04-16 08:37:31.869 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-16 08:37:31.876 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:31.895 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:31.904 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 27.2356ms
+2025-04-16 08:37:31.917 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.6346ms
+2025-04-16 08:37:36.774 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/Product/Create - null null
+2025-04-16 08:37:36.785 +06:00 [DBG] The request path /Product/Create does not match a supported file type
+2025-04-16 08:37:36.788 +06:00 [DBG] 1 candidate(s) found for the request path '/Product/Create'
+2025-04-16 08:37:36.790 +06:00 [DBG] Endpoint 'InventorySystem.Controllers.ProductController.Create (InventorySystem)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Product/Create'
+2025-04-16 08:37:36.793 +06:00 [DBG] Request matched endpoint 'InventorySystem.Controllers.ProductController.Create (InventorySystem)'
+2025-04-16 08:37:36.795 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.ProductController.Create (InventorySystem)'
+2025-04-16 08:37:36.804 +06:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller InventorySystem.Controllers.ProductController (InventorySystem).
+2025-04-16 08:37:36.808 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 08:37:36.812 +06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:36.815 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 08:37:36.818 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 08:37:36.820 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:36.822 +06:00 [DBG] Executing controller factory for controller InventorySystem.Controllers.ProductController (InventorySystem)
+2025-04-16 08:37:36.883 +06:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'MySql.EntityFrameworkCore:1.0.0' with options: None
+2025-04-16 08:37:36.886 +06:00 [DBG] Executed controller factory for controller InventorySystem.Controllers.ProductController (InventorySystem)
+2025-04-16 08:37:36.889 +06:00 [DBG] View lookup cache miss for view 'Create' in controller 'Product'.
+2025-04-16 08:37:36.896 +06:00 [INF] Executing ViewResult, running view Create.
+2025-04-16 08:37:36.898 +06:00 [DBG] The view path '/Views/Product/Create.cshtml' was found in 8.9504ms.
+2025-04-16 08:37:36.904 +06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Product'.
+2025-04-16 08:37:36.906 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2025-04-16 08:37:36.910 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 08:37:36.913 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 08:37:36.916 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2025-04-16 08:37:36.919 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Product and 
+2025-04-16 08:37:36.922 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Product
+2025-04-16 08:37:36.926 +06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Stock])
+2025-04-16 08:37:36.929 +06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Stock and 
+2025-04-16 08:37:36.932 +06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Stock
+2025-04-16 08:37:36.935 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 08:37:36.936 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 08:37:36.938 +06:00 [INF] Executed ViewResult - view Create executed in 49.2137ms.
+2025-04-16 08:37:36.941 +06:00 [INF] Executed action InventorySystem.Controllers.ProductController.Create (InventorySystem) in 118.5751ms
+2025-04-16 08:37:36.944 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.ProductController.Create (InventorySystem)'
+2025-04-16 08:37:36.947 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 08:37:36.950 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 08:37:36.952 +06:00 [DBG] 'ApplicationDbContext' disposed.
+2025-04-16 08:37:36.954 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/Product/Create - 200 null text/html; charset=utf-8 179.8224ms
+2025-04-16 08:37:36.984 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-16 08:37:36.988 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:37.004 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:37.006 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 18.0383ms
+2025-04-16 08:37:37.029 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.4389ms
+2025-04-16 08:37:37.423 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" received FIN.
+2025-04-16 08:37:37.425 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" is closed. The last processed stream ID was 11.
+2025-04-16 08:37:37.425 +06:00 [DBG] The connection queue processing loop for 0HNBSHUE4GGPU completed.
+2025-04-16 08:37:37.427 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-16 08:37:37.438 +06:00 [DBG] Connection id "0HNBSHUE4GGPU" stopped.
+2025-04-16 08:37:43.583 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" accepted.
+2025-04-16 08:37:43.586 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" started.
+2025-04-16 08:37:43.591 +06:00 [DBG] Connection 0HNBSHUE4GGPV established using the following protocol: "Tls13"
+2025-04-16 08:37:43.634 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:43.641 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:43.643 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 10.1996ms
+2025-04-16 08:37:47.441 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" received FIN.
+2025-04-16 08:37:47.443 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" is closed. The last processed stream ID was 1.
+2025-04-16 08:37:47.443 +06:00 [DBG] The connection queue processing loop for 0HNBSHUE4GGPV completed.
+2025-04-16 08:37:47.445 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-16 08:37:47.456 +06:00 [DBG] Connection id "0HNBSHUE4GGPV" stopped.
+2025-04-16 08:37:59.534 +06:00 [DBG] Connection id "0HNBSHUE4GGQ0" accepted.
+2025-04-16 08:37:59.538 +06:00 [DBG] Connection id "0HNBSHUE4GGQ0" started.
+2025-04-16 08:37:59.551 +06:00 [DBG] Connection 0HNBSHUE4GGQ0 established using the following protocol: "Tls13"
+2025-04-16 08:37:59.657 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/Stock - null null
+2025-04-16 08:37:59.665 +06:00 [DBG] The request path /Stock does not match a supported file type
+2025-04-16 08:37:59.666 +06:00 [DBG] 1 candidate(s) found for the request path '/Stock'
+2025-04-16 08:37:59.668 +06:00 [DBG] Endpoint 'InventorySystem.Controllers.StockController.Index (InventorySystem)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Stock'
+2025-04-16 08:37:59.673 +06:00 [DBG] Request matched endpoint 'InventorySystem.Controllers.StockController.Index (InventorySystem)'
+2025-04-16 08:37:59.675 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.StockController.Index (InventorySystem)'
+2025-04-16 08:37:59.678 +06:00 [INF] Route matched with {action = "Index", controller = "Stock"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InventorySystem.Controllers.StockController (InventorySystem).
+2025-04-16 08:37:59.681 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 08:37:59.683 +06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:59.686 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 08:37:59.690 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 08:37:59.693 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 08:37:59.695 +06:00 [DBG] Executing controller factory for controller InventorySystem.Controllers.StockController (InventorySystem)
+2025-04-16 08:37:59.708 +06:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'MySql.EntityFrameworkCore:1.0.0' with options: None
+2025-04-16 08:37:59.712 +06:00 [DBG] Executed controller factory for controller InventorySystem.Controllers.StockController (InventorySystem)
+2025-04-16 08:37:59.714 +06:00 [INF] Accessed Stock Index page.
+2025-04-16 08:37:59.717 +06:00 [DBG] Compiling query expression: 
+'DbSet<Stock>()'
+2025-04-16 08:37:59.725 +06:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Stock>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Stock.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Stock.ProductId (int) Required FK Index, 1], [Property: Stock.Quantity (int) Required, 2] }
+        SELECT s.Id, s.ProductId, s.Quantity
+        FROM Stocks AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Stock>, 
+    InventorySystem.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-04-16 08:37:59.732 +06:00 [DBG] Creating DbConnection.
+2025-04-16 08:37:59.734 +06:00 [DBG] Created DbConnection. (1ms).
+2025-04-16 08:37:59.735 +06:00 [DBG] Opening connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:59.742 +06:00 [DBG] Opened connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:59.744 +06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-16 08:37:59.746 +06:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-04-16 08:37:59.748 +06:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2025-04-16 08:37:59.750 +06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`Id`, `s`.`ProductId`, `s`.`Quantity`
+FROM `Stocks` AS `s`
+2025-04-16 08:37:59.776 +06:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`Id`, `s`.`ProductId`, `s`.`Quantity`
+FROM `Stocks` AS `s`
+2025-04-16 08:37:59.780 +06:00 [DBG] Closing data reader to 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:59.781 +06:00 [DBG] A data reader for 'InventoryDB' on server '127.0.0.1' is being disposed after spending 2ms reading results.
+2025-04-16 08:37:59.785 +06:00 [DBG] Closing connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:59.788 +06:00 [DBG] Closed connection to database 'InventoryDB' on server '127.0.0.1' (3ms).
+2025-04-16 08:37:59.792 +06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Stock'.
+2025-04-16 08:37:59.794 +06:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 08:37:59.797 +06:00 [ERR] The view 'Index' was not found. Searched locations: ["/Views/Stock/Index.cshtml","/Views/Shared/Index.cshtml"]
+2025-04-16 08:37:59.818 +06:00 [INF] Executed action InventorySystem.Controllers.StockController.Index (InventorySystem) in 122.9091ms
+2025-04-16 08:37:59.827 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.StockController.Index (InventorySystem)'
+2025-04-16 08:37:59.832 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Stock/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-16 08:37:59.907 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 08:37:59.908 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 08:37:59.923 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 08:37:59.925 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 08:37:59.927 +06:00 [DBG] 'ApplicationDbContext' disposed.
+2025-04-16 08:37:59.929 +06:00 [DBG] Disposing connection to database 'InventoryDB' on server '127.0.0.1'.
+2025-04-16 08:37:59.932 +06:00 [DBG] Disposed connection to database 'InventoryDB' on server '127.0.0.1' (2ms).
+2025-04-16 08:37:59.934 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/Stock - 500 null text/html; charset=utf-8 277.809ms
+2025-04-16 08:37:59.952 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-16 08:37:59.956 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 08:37:59.963 +06:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-16 08:37:59.967 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 11.9074ms
+2025-04-16 08:37:59.990 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5725ms

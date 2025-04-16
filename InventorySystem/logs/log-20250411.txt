@@ -1,0 +1,83 @@
+2025-04-11 19:37:36.822 +06:00 [INF] User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 19:37:37.840 +06:00 [INF] Now listening on: https://localhost:7296
+2025-04-11 19:37:37.844 +06:00 [INF] Now listening on: http://localhost:5148
+2025-04-11 19:37:37.981 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 19:37:37.984 +06:00 [INF] Hosting environment: Development
+2025-04-11 19:37:37.986 +06:00 [INF] Content root path: C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem
+2025-04-11 19:37:41.859 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/ - null null
+2025-04-11 19:37:42.430 +06:00 [INF] Executing endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-11 19:37:42.663 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InventorySystem.Controllers.HomeController (InventorySystem).
+2025-04-11 19:37:42.733 +06:00 [INF] Executing ViewResult, running view Index.
+2025-04-11 19:37:43.081 +06:00 [INF] Executed ViewResult - view Index executed in 349.897ms.
+2025-04-11 19:37:43.092 +06:00 [INF] Executed action InventorySystem.Controllers.HomeController.Index (InventorySystem) in 422.9722ms
+2025-04-11 19:37:43.101 +06:00 [INF] Executed endpoint 'InventorySystem.Controllers.HomeController.Index (InventorySystem)'
+2025-04-11 19:37:43.117 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/ - 200 null text/html; charset=utf-8 1277.8161ms
+2025-04-11 19:37:43.155 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-11 19:37:43.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-11 19:37:43.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/InventorySystem.styles.css?v=JsQuQvS3QQpyFcHz0xM_oY0SURWErUIy50ugASJCEus - null null
+2025-04-11 19:37:43.162 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-11 19:37:43.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/lib/jquery/dist/jquery.min.js - null null
+2025-04-11 19:37:43.259 +06:00 [INF] Sending file. Request path: '/InventorySystem.styles.css'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\obj\Debug\net8.0\scopedcss\bundle\InventorySystem.styles.css'
+2025-04-11 19:37:43.161 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 19:37:43.273 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/InventorySystem.styles.css?v=JsQuQvS3QQpyFcHz0xM_oY0SURWErUIy50ugASJCEus - 200 1133 text/css 114.3564ms
+2025-04-11 19:37:43.315 +06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-04-11 19:37:43.324 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 162.7485ms
+2025-04-11 19:37:43.315 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-04-11 19:37:43.297 +06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\js\site.js'
+2025-04-11 19:37:43.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-11 19:37:43.207 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2025-04-11 19:37:43.341 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 181.8164ms
+2025-04-11 19:37:43.330 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-11 19:37:43.374 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 214.5434ms
+2025-04-11 19:37:43.378 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 216.7472ms
+2025-04-11 19:37:43.391 +06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\css\site.css'
+2025-04-11 19:37:43.425 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 270.0266ms
+2025-04-11 19:37:43.450 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 290.8821ms
+2025-04-11 19:37:44.384 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1177.4109ms
+2025-04-11 19:37:44.426 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7296/favicon.ico - null null
+2025-04-11 19:37:44.444 +06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Hp\Downloads\InventorySystem\InventorySystem\InventorySystem\wwwroot\favicon.ico'
+2025-04-11 19:37:44.450 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7296/favicon.ico - 200 5430 image/x-icon 24.1235ms
+2025-04-11 19:41:27.829 +06:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `InventoryDB`
+2025-04-11 19:41:28.091 +06:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);
+2025-04-11 19:41:28.115 +06:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='InventoryDB' AND TABLE_NAME='__EFMigrationsHistory';
+2025-04-11 19:41:28.128 +06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-04-11 19:41:28.143 +06:00 [INF] No migrations were applied. The database is already up to date.
+2025-04-11 20:12:22.675 +06:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='InventoryDB' AND TABLE_NAME='__EFMigrationsHistory';
+2025-04-11 20:12:22.747 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='InventoryDB' AND TABLE_NAME='__EFMigrationsHistory';
+2025-04-11 20:12:22.784 +06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-04-11 20:12:22.803 +06:00 [INF] Applying migration '20250411140754_InitialCreate'.
+2025-04-11 20:12:23.026 +06:00 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Products` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` longtext NOT NULL,
+    `Price` decimal(18,2) NOT NULL,
+    PRIMARY KEY (`Id`)
+);
+2025-04-11 20:12:23.105 +06:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Stocks` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `ProductId` int NOT NULL,
+    `Quantity` int NOT NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Stocks_Products_ProductId` FOREIGN KEY (`ProductId`) REFERENCES `Products` (`Id`) ON DELETE CASCADE
+);
+2025-04-11 20:12:23.199 +06:00 [INF] Executed DbCommand (93ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Stocks_ProductId` ON `Stocks` (`ProductId`);
+2025-04-11 20:12:23.213 +06:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20250411140754_InitialCreate', '8.0.0');

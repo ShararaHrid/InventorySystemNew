@@ -1,38 +1,43 @@
-using InventorySystem.Data;
-//using InventorySystem.Repositories;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-using Autofac;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Pomelo.EntityFrameworkCore.MySql;
+using InventorySystem.Data;
+using InventorySystem.Repositories;
+using Microsoft.EntityFrameworkCore;
+using MySql.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Serilog for logging
+// 🔸 Configure Serilog
 Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
     .WriteTo.Console()
-    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
+
 builder.Host.UseSerilog();
 
-// Use Autofac as the DI container
-//builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-//builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
-//{
-//   containerBuilder.RegisterType<UnitOfWork>().AsSelf().InstancePerLifetimeScope();
-//});
+// 🔹 Use Autofac as the DI Container
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    // Register your services here for Autofac
+    containerBuilder.RegisterType<UnitOfWork>().AsSelf().InstancePerLifetimeScope();
+    containerBuilder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
+});
 
-// Configure Entity Framework Core (EF Core) for mySQL
+// 🔸 Configure Entity Framework Core (EF Core) for MySQL
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("InventoryDB")));
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(builder.Configuration.GetConnectionString("InventoryDB"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("InventoryDB"))));
-//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("InventoryDB")));
-
-// Add services to the container
+// 🔸 Add services to the container
 builder.Services.AddControllersWithViews();
+
+// No need to register UnitOfWork again using AddScoped if you're using Autofac
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline, Middleware pipeline
+// 🔸 Configure Middleware Pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -41,7 +46,6 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 app.UseAuthorization();
 
@@ -50,4 +54,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
- 

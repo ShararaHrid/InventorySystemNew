@@ -1,20 +1,24 @@
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using InventorySystem.Models;
+using InventorySystem.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace InventorySystem.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    //private readonly UnitOfWork _unitOfWork;
+    public HomeController(ILogger<HomeController> logger)//,UnitOfWork unitOfWork)
     {
         _logger = logger;
+        //_unitOfWork = unitOfWork;
     }
 
     public IActionResult Index()
     {
+        //var products = _unitOfWork.Products.GetAll();
         return View();
     }
 
